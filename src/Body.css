@@ -1,0 +1,78 @@
+.body{
+    padding: 30px;
+    flex: .8;
+    height: 100vh;
+    color: white;
+    overflow-y: overlay;
+    background: linear-gradient(rgb(150, 69, 22), black);
+}
+.body::-webkit-scrollbar {
+    display: none;
+}
+.bodyInfo {
+    display: flex;
+    align-items: flex-end;
+}
+.bodyPicture {
+    height: 20vh;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+.bodyInfoText > h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.bodyInfoText > p {
+    font-size: 14px;
+}
+.bodyIcons {
+    display: flex;
+    align-items: center;
+}
+.playIcon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 80px !important;
+}
+.favIcon {
+    margin-right: 20px;
+    font-size: 40px !important;
+}
+.playIcon:hover{
+    transition: transform 0.2s ease-in;
+    transform: scale(1.08) !important;
+}
+.bodySongPicture {
+    height: 80px
+}
+
+.bodySong {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;;
+    padding: 20px;
+}
+.bodySong:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: .8;
+}
+.bodySongInfo {
+    margin-left: 20px;
+}
+.bodySongTitle {
+    font-size: 20px;
+}
+.bodySongArtists {
+    display: flex;
+    font-size: 16px;
+    margin-top: 3px;
+    color: grey;
+
+}
+.bodySongAlbum {
+    font-size: 16px;
+    color: grey;
+
+}

@@ -1,0 +1,23 @@
+.login {
+    display: grid;
+    /* this will equally space things out in the  */
+    place-items: center;
+    /* 100 view heihgt */
+    height: 100vh;
+    background-color: black;
+}
+
+/* go to login, find the image, and give the image this width */
+.login > img {
+    height: 200px;
+}
+
+.login > a {
+    padding: 20px;
+    border-radius: 99px;
+    color: white;
+    background-color: #1db954;
+    font-weight: bold;
+    /* no underline under link */
+    text-decoration: none;
+}
