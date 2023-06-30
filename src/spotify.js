@@ -15,7 +15,7 @@ redirect to home page once logged in
 
 export const authEndpoint = "https://accounts.spotify.com/authorize"
 
-const redirectUri = "http://localhost:3000/"
+const redirectUri = "http://ricardocrzz.github.io/spotifyWebAppClone"
 
 // id provided by The Clever Programmer on yt
 const clientId = "cff76213089a4e228206c8bf120d67cb"
