@@ -18,7 +18,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize"
 const redirectUri = "http://ricardocrzz.github.io/spotifyWebAppClone/"
 
 // id provided by The Clever Programmer on yt
-const clientId = "cff76213089a4e228206c8bf120d67cb"
+const clientId = "577184167f4c4451988f07dd3f69239a"
 
 // you are now going to do the following on this app
 // these are the permissions allowed from my spotify data
